@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 80px;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.valid h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 84px;
+    margin-top: 40px;
+}
+.valid {
+    width: 450px;
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid white;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    backdrop-filter: blur(15px);
+    padding: 25px 20px;
+}
+
+
+.input-box {
+    position: relative;
+    left: 5%;
+}
+.input-box::before {
+content: "";
+    position: absolute;
+    width: 85%;
+    height: 3px;
+    bottom: -4px;
+    left: 10px;
+    background-color: #fff;
+}
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    gap: 62px;
+}
+
+.input-box .email {
+    position: absolute;
+    left: 14px;
+    top: 9px;
+    color: white;
+    font-size: 21px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.input-box input {
+    width: 80%;
+    padding: 15px 20px;
+    outline: none;
+    background: transparent;
+    border: transparent;
+    caret-color: red;
+}
+
+#icon {
+    position: absolute;
+    top: 12px;
+    font-size: 20px;
+    color: white;
+    right: 66px;
+}
+input:focus ~ .email {
+    top: -30px;
+}
+
+.flex-form .forget {
+    margin: 1px auto;
+}
+.forget label {
+    margin-left: 6px;
+    margin-right: 3px;
+    font-size: 16px;
+    color: white;
+}
+.forget input {
+    cursor: pointer;
+}
+.forget a {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+.forget a:hover {
+    text-decoration: underline;
+}
+.btn {
+    display: block;
+    width: 77%;
+    margin: -28px auto;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.btn:hover {
+    background-color: #123;
+    color: white;
+}
+
+p {
+    margin: 1px auto;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.register {
+    color: wheat;
+}
