@@ -80,9 +80,12 @@ content: "";
     color: white;
     right: 66px;
 }
-input:focus ~ .email {
+
+.input-box input:valid ~ label , 
+.input-box input:focus ~ label {
     top: -30px;
 }
+
 
 .flex-form .forget {
     margin: 1px auto;
